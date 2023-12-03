@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="video-container">
+  <video id="main-video" width="100%" height="100%" controls autoplay loop>
+    <source src="images/happydance-video.mp4" type="video/mp4">
+  </video>
+</div>
+
+<div id="buttons-container">
+  <div class="button" onclick="changeVideo('jump-video2.mp4', 'Jump')">
+    <img src="images/jumping gif.gif" alt="Jump" width="120%" height="120%">
+  </div>
+  <div class="button" onclick="changeVideo('happydance-video2.mp4', 'Happy')">
+    <video width="60%" height="60%" muted autoplay loop>
+      <source src="images/happydance-icon.mp4" type="video/mp4">
+    </video>
+  </div>
+  <div class="button" onclick="changeVideo('wave-video2.mp4', 'Wave')">
+    <video width="60%" height="60%" muted autoplay loop>
+        <source src="images/wave-icon.mp4" type="video/mp4">
+    <span class="button-text">Wave</span>
+  </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
